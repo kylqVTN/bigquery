@@ -48,7 +48,7 @@ Sau khi liên kết, vào bước **Configure integration** và bật cấu hìn
 
 **Cách 2 — Từ Firebase:** Khi đã có bảng data Analytics, trong màn **Configure integration** (thẻ Google Analytics) bấm link **View in BigQuery** bên cạnh `Dataset name` để mở thẳng dataset trong BigQuery.
 
-![Firebase — Dataset name / View in BigQuery](images/6.png)
+![Firebase — Dataset name / View in BigQuery](images/4.png)
 
 > ⏱️ **Thời gian chờ data về BigQuery:**
 > - Nếu **bật Streaming**: dữ liệu về sau khoảng **30 phút – 1 giờ**.
@@ -65,7 +65,7 @@ Sau khi Firebase export thành công, trong panel **Explorer** (bên trái) sẽ
 
 Mở tab **SQL query** để bắt đầu query trên các bảng này.
 
-![BigQuery Studio — dataset analytics và các bảng events](images/4.png)
+![BigQuery Studio — dataset analytics và các bảng events](images/5.png)
 
 ## 6. Mở SQL để viết truy vấn
 
@@ -121,7 +121,7 @@ ORDER BY price_usd DESC;
 
 Bấm **Run** (`Ctrl/Cmd + Enter`). Sau khi chạy xong, kết quả sẽ hiển thị ở phần **Query results** như hình dưới:
 
-![Kết quả query trong BigQuery](images/5.png)
+![Kết quả query trong BigQuery](images/6.png)
 
 ## 7. Lưu kết quả (Save results)
 
