@@ -50,9 +50,9 @@ Sau khi liên kết, vào bước **Configure integration** và bật cấu hìn
 
 ![Firebase — Dataset name / View in BigQuery](images/4.png)
 
-> ⏱️ **Thời gian chờ data về BigQuery:**
-> - Nếu **bật Streaming**: dữ liệu về sau khoảng **30 phút – 1 giờ**.
-> - Nếu **chỉ bật Daily** (không Streaming): phải chờ **24 – 48 giờ** mới có bảng dữ liệu.
+> ⏱️ **Thời gian chờ data nếu lần đâu phải đợi 24h tạo data set về BigQuery:**
+> - Sau đó nếu có data set -> Nếu **bật Streaming**: dữ liệu về sau khoảng **30 phút – 1 giờ**.
+> - Nếu **chỉ bật Daily** (không Streaming): phải chờ **24 – 48 giờ** mới có bảng dữ liệu của ngày đó.
 
 ## 5. Giao diện BigQuery khi đã có dữ liệu Analytics
 
