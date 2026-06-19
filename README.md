@@ -1,6 +1,7 @@
 # Hướng dẫn Setup BigQuery để Query Data
 
-## 1. Tích hợp log doanh thu quảng cáo trong app (Flutter)
+## 1.CHECK XEM APP CÓ LOG TAICHI EVENT PAID AD IMPRESSION LÊN CHƯA -> NẾU RỒI THÌ BỎ QUA BƯỚC 1
+Tích hợp log doanh thu quảng cáo trong app (Flutter)
 
 1. Thêm file **`ad_revenue_logger.dart`** vào source của app (ví dụ trong thư mục `lib/`).
 2. Khởi tạo (init) logger trong **`app.dart`** bằng cách gọi:
