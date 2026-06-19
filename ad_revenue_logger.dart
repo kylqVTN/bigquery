@@ -45,11 +45,6 @@ class AdRevenueLogger {
           'value=$valueUsd ${e.currencyCode} unit=${e.adId} '
           'premium=${purchasesManager.isPremium}');
     }
-    // User premium không xem ad nên về lý thuyết không có paid-event,
-    // guard cho chắc để tránh log rác.
-    if (purchasesManager.isPremium) {
-      return;
-    }
     if (valueUsd <= 0) {
       return;
     }
